@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meal API</string>
+    <string name="description">Description :</string>
+    <string name="all">All</string>
+    <string name="categories">Categories :</string>
+    <string name="category">Category :</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="measurements">Measurements</string>
+    <string name="instructions">Instructions: </string>
+</resources>

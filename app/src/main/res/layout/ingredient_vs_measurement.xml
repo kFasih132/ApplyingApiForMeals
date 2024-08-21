@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="2800dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="2800dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/et_bg"
+        app:cardCornerRadius="36dp"
+        android:backgroundTint="@color/white"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvInstructions"
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="heoolo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName1"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="hi"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvInstructions"
+                app:layout_constraintTop_toBottomOf="@+id/tvInstructions" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement13"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement12"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement12"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement12" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement14"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement13"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement13"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement13" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement9"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement8"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement8"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement8" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement10"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement9"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement9"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement9" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement11"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement10"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement10" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement12"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement11"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement11"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement11" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement7"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement6"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement6" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement8"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement7"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement7"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement7" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement6"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement5"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement5"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement5" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement5"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement4"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement4" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement1"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="hi"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guidelineMid"
+                app:layout_constraintTop_toBottomOf="@+id/tvInstructions" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName2"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName1"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement2"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement1"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement3"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement2"
+                app:layout_constraintHorizontal_bias="0.833"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement2"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement2" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMeasurement4"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvMeasurement3"
+                app:layout_constraintStart_toStartOf="@+id/tvMeasurement3"
+                app:layout_constraintTop_toBottomOf="@+id/tvMeasurement3" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName3"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName2"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName2" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName4"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName3"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName3" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName5"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName4"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName4" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName6"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName5"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName5" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName7"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName6"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName6" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName8"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineMid"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName7"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName7" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName9"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName8"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName8"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName8" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName10"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName9"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName9"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName9" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName11"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName10"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName10"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName10" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName12"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName11"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName11"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName11" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName13"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName12"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName12"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName12" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvIngredientsName14"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="hi"
+                app:layout_constraintEnd_toEndOf="@+id/tvIngredientsName13"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvIngredientsName13"
+                app:layout_constraintTop_toBottomOf="@+id/tvIngredientsName13" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
